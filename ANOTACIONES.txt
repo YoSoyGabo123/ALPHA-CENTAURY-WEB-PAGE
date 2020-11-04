@@ -1,0 +1,26 @@
+head: Lo que se necesita para funcionar
+	meta: Informa al navegador como tratar nuestro proyecto
+body: lo que el usuario ve
+
+
+TINYPNG Comprime imagenes
+VERIFIC: Borra metadatos
+
+PARA QUE UN VIDEO SE REPRODUZCA EN UN SEGUNDO ESPECÍFICO
+despues de src="hola.mp4#t=5,6"
+#t=5,6 es el tiempo
+5 es el que inicia, 6 es el que termina
+
+La etiqueta <source> nos sirve para que en caso de que un navegador no pueda correr
+cierto formato de imagen o video corra otro
+
+Imput types:
+date
+text
+
+Autocomplete(Valor en imput)
+autocomplete="(valores)" ----> link: 
+https://developer.mozilla.org/es/docs/Web/HTML/Atributos/autocomplete
+
+Required(valor en imput)
+Hace que una casilla sea requerida
