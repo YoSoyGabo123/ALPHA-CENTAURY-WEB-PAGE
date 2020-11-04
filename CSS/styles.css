@@ -1,3 +1,8 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing:border-box;
+}
 #texto_logo {
     font-size: 10px;
     color: blue;
