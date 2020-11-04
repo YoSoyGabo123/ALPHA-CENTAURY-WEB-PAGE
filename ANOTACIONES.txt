@@ -17,6 +17,7 @@ cierto formato de imagen o video corra otro
 Imput types:
 date
 text
+https://www.w3schools.com/html/html_form_input_types.asp
 
 Autocomplete(Valor en imput)
 autocomplete="(valores)" ----> link: 
@@ -24,3 +25,48 @@ https://developer.mozilla.org/es/docs/Web/HTML/Atributos/autocomplete
 
 Required(valor en imput)
 Hace que una casilla sea requerida
+
+
+CSS
+
+DISPLAY INLINE-BLOCK HACE que los elementos se pongan en línea
+
+documentación BEM para saber como nombrar clases con buenas prácticas
+
+Si ponemos el nombre de la clase, y después un espacio y el nombre de una
+etiqueta ej:
+
+.hola a{
+esto hace que se muestre todas las cosas que estaban dentro de hola, pero que
+tienen la etiqueta a
+}
+
+
+PSEUDO CLASES :
+
+HOVER
+si ponemos hover hace que al pasar el mouse por encima cambie de color
+ej:
+.hola a:hover{
+}
+
+ACTIVE
+Active es como hover, mas nos muestra en que pagina estamos, o a que ya
+le hemos hecho click
+
+
+PSEUDO ELEMENTOS ::
+
+AFTER
+NOS PONE UNA LINEA AL FINAL DE LA CAJA DE LA PALABRA
+
+SELECTOR UNIVERSAL
+
+* {
+
+}
+
+BOX-SIZING
+
+box-sizing: border box; ( para que se recalcule el contenido y se adapte a 
+la pantalla de cad anavegador o dispositivo)
