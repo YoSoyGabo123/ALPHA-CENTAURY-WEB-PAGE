@@ -70,3 +70,46 @@ BOX-SIZING
 
 box-sizing: border box; ( para que se recalcule el contenido y se adapte a 
 la pantalla de cad anavegador o dispositivo)
+
+
+
+ETIQUETAS HERMANAS
+ETIQUETA + LA UQE QUEREMOS CAMBIAR
+significa que editamos la que queremos cambiar que est[e bajo una etiqueta
+ej:
+h2 + p{
+solo se edita la p
+
+
+ETIQYETAS DE HERMANOS GENERALES
+
+~ (ESTE ES EL SIGNO)
+H2 ~ P{
+CAMBIA P, TODOL LOS P QUE TENGA JUNTO, NO IMPORTA A QUE DISTANCIA UN H2
+}
+
+
+ETIQUETAS HIJO
+
+funciona con >
+
+div > p {
+nos da todos los p que estaban bajo un div directo
+}
+
+
+DESCENDIENTE
+
+nav a{
+todas las etiquetas a en la etiqueta nav
+}
+
+
+
+EM 
+toma el tamaño de fuente de su padre directo
+ej:
+main
+	p
+el tamaño de p será el de su padre si lo ponemos 1 em, soi lo ponemos más es 
+como multiplicar
