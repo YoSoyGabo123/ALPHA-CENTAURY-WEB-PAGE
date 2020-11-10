@@ -113,3 +113,9 @@ main
 	p
 el tamaño de p será el de su padre si lo ponemos 1 em, soi lo ponemos más es 
 como multiplicar
+
+
+REM
+ponemos un 62.5% de el valor html
+que es 10px
+en ese caso 1 Rem = 10px
